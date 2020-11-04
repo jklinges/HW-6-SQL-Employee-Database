@@ -43,3 +43,4 @@ CREATE TABLE DEPT_MANAGER (
     
 );
 
+Query returned successfully in 64 msec.
