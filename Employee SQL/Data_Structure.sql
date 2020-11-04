@@ -1,7 +1,6 @@
--- Note, departments and titles have only primary keys and none of the columns refer to any other
--- tables, so they are imported first.
+-- Note, departments and titles have only primary keys and none of the columns refer to any other tables, so they are imported first.
 -- Employees table has 1 foreign key that refers to Titles table. 
--- Since Titles table already has the rows from previous step, its safe to import the Employees table..
+-- Since Titles table already has the rows from previous step, its safe to import the Employees table.
 ---Salaries has a foreign key that refers to Employees table which is already populated with data in previous step, so its safe to import data into Salaries table
 -- Both Dept_Emp and Dept_Manager have foreign keys referring to previous Employees and Departments tables.
 
